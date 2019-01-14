@@ -1,0 +1,25 @@
+
+.contact{
+   button{
+       width: 100%;
+   }
+    span{
+        color: $color-brand;
+    }
+    p{
+        margin-left: 25px;
+    }
+    &--items{
+        h6{
+            display: inline-block;
+            margin-bottom: 0;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+    }
+    &--form{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+

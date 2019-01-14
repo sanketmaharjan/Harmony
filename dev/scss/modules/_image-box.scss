@@ -1,0 +1,42 @@
+.image-box{
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    object-fit: cover;
+
+    &--design-1{
+        @include box-shadow(0 0 0px 5px #ebebeb);
+        @include border-radius(0);
+
+    }
+
+    &--design-2{
+        max-width: 400px;
+    }
+
+    &--design-3{
+        display: block;
+        padding: 4px;
+        margin-bottom: 0px;
+        line-height: 1.42857;
+        background-color: #fff;
+        border: none;
+        
+        img {
+            height: 150px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    
+    &--design-4{
+        @include box-shadow(0 0 0px 5px #ffffff);
+        @include border-radius(0);
+        img{
+            object-fit: cover;
+        }
+
+    }
+
+}
+

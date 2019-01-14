@@ -1,0 +1,55 @@
+.theme-main{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    min-height: 100%;
+    margin-bottom: -80px;
+}
+
+.info{
+    &--title{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    &--color-brand{
+        color: $color-brand;
+    }
+
+    &--white{
+        color: #FFFFFF;
+    }
+}
+
+//custom media box for event page
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 640px;
+  
+  &__text {
+    flex: 99999 1 20em;         
+    
+    p{
+        margin-bottom: 5px;
+    }
+
+    @include breakpoint(below-xs){
+        margin-top: 10px;    
+        }
+  }
+  
+  &__image {
+    flex: 1 1 10em;
+    margin-right: 1em;
+
+    img {
+        height: auto;
+        max-width: 100%;
+        border: 3px solid #ffffff;
+
+      } 
+  }
+}
+  

@@ -1,0 +1,11 @@
+.jumbotron{
+    margin: 0;
+    background-color: transparent;
+    font-weight: normal;
+    
+    &--text{
+        margin: auto;
+        max-width: 800px;
+        text-align: center;
+    }
+}

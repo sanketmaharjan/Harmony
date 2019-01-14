@@ -1,0 +1,39 @@
+.pager{
+    background-color: transparent;
+    border: none;
+    color: $color-brand;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    li>a{
+        @include pager($color-brand, $color-grey-dark, $color-brand);
+        &.active{
+            color: $color-grey-dark;
+        }
+    }
+    .separator{
+        color: $color-grey-dark;
+    }
+
+    // &--design-1{
+    //     li>a{
+    //         @include pager($color-brand, $color-grey-dark, $color-brand);
+    //         &.active{
+    //             color: $color-grey-dark;
+    //         }
+    //     }
+    // }
+    
+    &--design-2{
+        text-align: center;
+        a{
+            cursor: pointer;
+        }
+        i{
+            display: inline-block;
+            font-size: 12px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    }
+}
